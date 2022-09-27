@@ -15,7 +15,7 @@ const TextFieldMask: React.FC<TextFieldMaskProps> = ({
 }) => {
   return (
     <InputMask mask={mask} value={value} onChange={onChange}>
-      {() => <TextField {...props}  />}
+      <TextField {...props}  />
     </InputMask>
   );
 };
